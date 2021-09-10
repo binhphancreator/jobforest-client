@@ -1,0 +1,29 @@
+footer{
+    background:linear-gradient(135deg, #012, #221 70%, #332 90%);
+    background-image: url('~@/assets/img/cloud-dark.svg');
+    background-position: center 150%;
+    background-size: cover;
+
+    .edge-mask{
+        background-image: url('~@/assets/img/valley-white-static.svg');
+        height:200px;
+        width: 100%;
+        margin-bottom: -80px;
+        transform: translate(0, -50%);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 1;
+
+        .mask{
+            background-image: url('~@/assets/img/valley-white.svg');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+
+    // .inner{
+    //     padding-top: 90px;
+    // }
+}

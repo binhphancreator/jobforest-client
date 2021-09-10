@@ -1,0 +1,5 @@
+.svg-hover:hover{
+    path,path.active,.active{
+        @apply fill-blue-500;
+    }
+}

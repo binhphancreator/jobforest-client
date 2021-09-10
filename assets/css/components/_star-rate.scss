@@ -1,0 +1,19 @@
+.start-rate{
+    @apply relative cursor-pointer;
+    width: fit-content;
+    .front{
+        @apply flex;
+        svg{
+            stroke:black;
+            fill:none;
+            stroke-width:5;
+        }
+    }
+    .back{
+        @apply flex flex-nowrap h-full fill-yellow-300 transition-all absolute left-0 top-0 bottom-0 overflow-hidden;
+    }
+
+    svg{
+        @apply w-4 h-4 transition-all;
+    }
+}

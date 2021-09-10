@@ -1,0 +1,38 @@
+.btn,button{
+    @apply outline-none;
+
+    &:focus , &:active{
+        outline:none;
+    }
+}
+
+input,input:active,input:hover{
+    outline: none;
+}
+
+textarea,textarea:active,textarea:hover{
+    outline: none;
+}
+
+::placeholder{
+    @apply text-xs text-gray-500;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    @apply bg-gray-200;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-300;
+}
